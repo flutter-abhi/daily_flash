@@ -1,3 +1,8 @@
+import 'package:flash_7/1.dart';
+import 'package:flash_7/2.dart';
+import 'package:flash_7/3.dart';
+import 'package:flash_7/4.dart';
+import 'package:flash_7/5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,10 +15,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+        body: Fifth(),
       ),
     );
   }
